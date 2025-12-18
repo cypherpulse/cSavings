@@ -1,0 +1,55 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Node modules
+node_modules/
+
+# Script files
+*.ps1
+*.bat
+*.sh
+*.cmd
+
+# IDE files
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+lcov-report/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Foundry specific
+lib/forge-std/test/
+lib/openzeppelin-contracts/test/
+lib/openzeppelin-contracts/docs/
